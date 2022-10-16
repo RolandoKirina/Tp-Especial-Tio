@@ -19,6 +19,12 @@ class SeriesView {
         $this->smarty->display('templates/home.tpl');   
     }
 
+    function showAbout() {
+
+        $this->smarty->display('templates/showAbout.tpl');
+
+    }
+
     //mostrar lista series con plataformas entre parentesis
     function showAllSeries($series, $platforms, $logged) {
 

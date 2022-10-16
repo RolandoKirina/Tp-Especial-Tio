@@ -101,7 +101,8 @@ switch ($params[0]) {
         break;  
     case 'about':
         $serieController = new SeriesController();
-        $serieController->showAbout();    
+        $serieController->showAbout();
+        break;    
     default:
         echo('404 Page not found');
         break;

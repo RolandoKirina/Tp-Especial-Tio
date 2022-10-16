@@ -48,6 +48,10 @@ class SeriesController {
         $this->view->showHome($logged);
     }
 
+    public function showAbout() {
+        $this->view->showAbout();
+    }
+
         //ver todas las series
     public function showAllSeries() {
         
