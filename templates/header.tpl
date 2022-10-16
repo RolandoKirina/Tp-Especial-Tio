@@ -27,6 +27,7 @@
                           <li> <a class="nav-link" aria-current="page" href="series">Series</a></li>
                           <li> <a class="nav-link" aria-current="page" href="platforms">Plataformas</a></li>
                           <li> <a class="nav-link" aria-current="page" href="search">Buscar</a></li>
+                           <li> <a class="nav-link" aria-current="page" href="search">About</a></li>
                         
                           {if $logged}
                           <li> <a class="nav-link" aria-current="page" href="logout">Logout</a></li>

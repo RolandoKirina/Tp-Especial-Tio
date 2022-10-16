@@ -99,6 +99,9 @@ switch ($params[0]) {
         $id = $params[1];
         $platformsController->deletePlatform($id);
         break;  
+    case 'about':
+        $serieController = new SeriesController();
+        $serieController->showAbout();    
     default:
         echo('404 Page not found');
         break;
