@@ -19,8 +19,9 @@ class SeriesView {
         $this->smarty->display('templates/home.tpl');   
     }
 
-    function showAbout() {
+    function showAbout($logged) {
 
+        $this->smarty->assign('logged', $logged);
         $this->smarty->display('templates/showAbout.tpl');
 
     }

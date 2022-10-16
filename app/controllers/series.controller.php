@@ -49,7 +49,8 @@ class SeriesController {
     }
 
     public function showAbout() {
-        $this->view->showAbout();
+        $logged = $this->authHelper->isLogged();
+        $this->view->showAbout($logged);
     }
 
         //ver todas las series

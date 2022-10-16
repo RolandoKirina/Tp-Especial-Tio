@@ -27,6 +27,10 @@ $params = explode('/', $action);
 // tabla de ruteo
 
 switch ($params[0]) {
+    case 'about':
+        $serieController = new SeriesController();
+        $serieController->showAbout();
+        break;    
     case 'login':
         $loginController = new LoginController();
         $loginController->showLogin();
@@ -58,7 +62,7 @@ switch ($params[0]) {
     case 'filter':
         $platformsController = new PlatformsController();
         $platformsController->seriesFiltred();
-        break;
+        break;    
     case 'viewSerie':
         $serieController = new SeriesController();
         $serieController->viewSerie($params[1]);
@@ -99,10 +103,6 @@ switch ($params[0]) {
         $id = $params[1];
         $platformsController->deletePlatform($id);
         break;  
-    case 'about':
-        $serieController = new SeriesController();
-        $serieController->showAbout();
-        break;    
     default:
         echo('404 Page not found');
         break;
