@@ -1,0 +1,1 @@
+importar base de datos de carpeta "database" para el uso de la pagina.
