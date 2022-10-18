@@ -9,9 +9,27 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
-
+.center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    border-bottom: 0;
+}
+.h1 {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+.container {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.label {
+    color: white;
+}
 /* Layout de la  Pagina */
 
 .contenedor, .contenedor-2, .contenedor-3 {

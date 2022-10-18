@@ -1,18 +1,21 @@
     {include 'templates/header.tpl'}
         <div class="container">
             <form action="verify" method="POST" class="col-md-4 offset-md-4 mt-4">
-                <h1>Iniciar Sesion</h1>
-
+                <h1 class="h1">Iniciar Sesion</h1>
+                
                 <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Ingrese email">
+                <label class="label">Ingrese su email: </label>
+                    <input type="email" name="email" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Ingrese Password">
+                <label class="label">Ingrese su contraseña: </label>
+                    <input type="password" name="password" class="form-control">
                 </div>
 
-
-                <button type="submit" class="btn btn-primary">Ingresar</button>
+                <div class="center">
+                <button type="submit"class="btn btn-light">Ingresar</button>
+                </div>
             </form>
 
             {if $error}
@@ -21,7 +24,4 @@
                 </div>
             {/if}
 
-
         </div>
-
-    {include 'templates/footer.tpl'}
