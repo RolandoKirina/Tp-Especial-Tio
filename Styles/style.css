@@ -97,7 +97,7 @@ footer { grid-area: footer; }
 .logo p a {
     color: red;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 34px;
     font-family: 'Passion One', cursive;
 }
 
