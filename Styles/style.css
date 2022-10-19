@@ -187,19 +187,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* titular */
 
 .titular {
@@ -283,6 +270,26 @@ p{
     margin-top: 5%;
     justify-content:left;
     line-height: 1.5em;
+}
+
+/* Platforms */
+
+.title-platforms{
+    color: #fff;
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+.title-platforms:hover{
+    cursor: pointer;
+    color: red;
+}
+.list-group-item:hover{
+    cursor: pointer;
+    background-color: #f0bd15;
+}
+.list-group{
+    margin: 2rem;
+    padding: 1.5rem;
 }
 
 
