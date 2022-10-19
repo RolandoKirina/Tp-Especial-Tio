@@ -7,7 +7,7 @@
          <h4>[Te encuentras en una sesion]</h4>
             {/if}
 
-         <h2>Bienvenido a Series y Plataformas</h2>
+         <h2>BIENVENIDO A SERIES Y PLATAFORMAS</h2>
 
          <p>Aqui encontraras informacion sobre determinadas Series y sus Plataformas de Streaming</p>
 
