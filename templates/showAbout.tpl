@@ -1,6 +1,6 @@
 {include 'templates\header.tpl'}
 
-    <h1>Bienvenido a la Seccion About!</h1>
+    <h1 class="h1About">Bienvenido a la Seccion About!</h1>
 
     <h2 class="h2 about">Esta pagina fue mejorada gracias a la colaboracion de varios miembros: </h2>
 

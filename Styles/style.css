@@ -663,6 +663,24 @@ label {
     color: #fff;
 }
 
+/* About */
+.h1About, h2.about, h4.about{
+    text-align: center;
+}
+.h1About{
+    margin-bottom: 30px;
+}
+.listColaboradores{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+    margin-bottom: 18%;
+}
+.listColaboradores li{
+    border-bottom: 2px solid black;
+}
 
 
 /* solo pantallas superiores a 660px */
