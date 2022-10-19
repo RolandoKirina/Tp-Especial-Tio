@@ -179,19 +179,6 @@ ul.navegacion li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* titular */
 
 .titular {
@@ -275,6 +262,12 @@ ul.navegacion li a {
     margin-top: 5%;
     justify-content:left;
     line-height: 1.5em;
+}
+
+/* Platforms */
+.title-platforms{
+    color: #fff;
+    padding-top: 2rem;
 }
 
 
