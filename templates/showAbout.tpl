@@ -2,9 +2,9 @@
 
     <h1>Bienvenido a la Seccion About!</h1>
 
-    <p>Esta pagina fue mejorada gracias a la colaboracion de varios miembros: </p>
+    <h2 class="h2 about">Esta pagina fue mejorada gracias a la colaboracion de varios miembros: </h2>
 
-    <ul>
+    <ul class="listColaboradores">
         <li>Kirina Rolando</li>
         <li>Maria Ines Conti</li>
         <li>Mercedes Chomicki</li>
@@ -15,7 +15,7 @@
         <li>Javier Ondicol</li>
     </ul>
 
-    <h4>Proyecto - Trabajo GIT</h4>
+    <h4 class="h4 about">Proyecto - Trabajo GIT</h4>
 
 
 {include 'templates\footer.tpl'}
