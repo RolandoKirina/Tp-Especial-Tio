@@ -176,6 +176,12 @@ ul.navegacion li a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 3%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 150%;
 }
 
 
