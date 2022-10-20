@@ -62,11 +62,14 @@ CREATE TABLE `serie` (
 --
 
 INSERT INTO `serie` (`id_serie`, `name`, `genre`, `image`, `id_platform_fk`) VALUES
-(11, 'Better Call Saul', 'drama', 'img/task633f2029073d1.jpg', 1),
-(14, 'Breaking Bad', 'drama', 'img/series633f20fbc2679.jpg', 1),
-(18, 'game of thrones', 'accion-drama', NULL, 2),
-(19, 'Handmaid\'s tale', 'drama - distopia', NULL, 3),
-(20, 'Loki', 'accion - fantasia', NULL, 7);
+(25, 'Better Call Saul', 'drama', 'img/series635166f021bce.jpg', 1),
+(26, 'Loki', 'accion- fantasia', 'img/series6351670cc9587.jpg', 7),
+(27, 'Game of Thrones', 'accion - drama', 'img/series6351674d98a94.jpg', 2),
+(28, 'Handmaid\'s tale', 'drama - distopia', 'img/series635167a5ad155.jpg', 2),
+(29, 'Peaky Blinders', 'drama', 'img/series635167ee5567f.jpg', 1),
+(30, 'Vikings', 'accion-drama', 'img/series635168198a3cf.jpg', 1),
+(31, 'Silicon Valley', 'comedia', 'img/series6351682f51d5f.jpg', 2),
+(32, 'Breaking Bad', 'drama', 'img/series635168dc7f144.jpg', 1);
 
 -- --------------------------------------------------------
 
