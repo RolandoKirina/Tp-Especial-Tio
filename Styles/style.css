@@ -797,7 +797,43 @@ label {
             
     }
 
-   
+    .series-container{
+        padding: 0;
+        max-height: 440px;
+        text-align: center;
+        border-radius: 15px;
+        transition: transform .5s;
+   }
 
+   .series-container:hover{
+        transform: scale(1.1);
+   }
+   .serie{
+        max-width: 263px;
+        border-radius: 15px;
+        max-height: 315px;
+   }
+
+   .admin_actions{
+        font-weight: 900;
+        position: relative;
+        top: 6%;
+        left: 22%;
+    }
+    .circle-icon:hover{
+        background: white;
+    }
+    .circle-icon{
+        background: #ebebeb;
+        padding: 9px;
+        border-radius: 50%;
+    }
+    .fa-plus{
+        font-size: 50px;
+    }
+
+    .serie:hover{
+        box-shadow:0rem 0rem 0.6rem #6c6c6c;
+    }
 }
 
