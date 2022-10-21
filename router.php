@@ -74,7 +74,7 @@ switch ($params[0]) {
     case 'insertSerie':
         $serieController = new SeriesController();
         $serieController->addNewSerie();
-    break;
+        break;
     case 'addPlatform':
         $platformsController = new PlatformsController();
         $platformsController->addNewPlatform();

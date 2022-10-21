@@ -24,11 +24,6 @@
           {/foreach}
         </div>
       </div>  
-          
-      {if $logged}
-      {include 'templates\form_serie.tpl'}
-      {/if}
-
 
       {include 'templates\footer.tpl'}
 
