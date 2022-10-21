@@ -1,13 +1,12 @@
-
+{include file="header.tpl"}
 
     <div class="container">
 
         <h1>Añadir</h1>
 
-        <form action="addSerie" method="POST" enctype="multipart/form-data">
+        <form action="insertSerie" method="POST" enctype="multipart/form-data">
 
             <h2>Ingrese los datos</h2>
-
 
             <div class="col-3">
                 <div>
@@ -20,14 +19,12 @@
                         <select name="choice" class="form-selected">
                                                     
                             {foreach $platforms as $platform }
-                            <option value="{$platform->id_platform}">{$platform->id_platform}({$platform->company})</option>
+                                <option value="{$platform->id_platform}">{$platform->id_platform}({$platform->company})</option>
                             {/foreach} 
-                            
 
                         </select>
 
                     <input name="input_name" id="imageToUpload" type="file" placeholder="Archivo Imagen-Serie"></input>
-
 
                 </div>
             </div>
@@ -38,3 +35,4 @@
 
     </div>
 
+{include file="footer.tpl"}
