@@ -5,7 +5,7 @@
         <div class="row row-cols-4">
         <!--Si esta loggeado muestro el plus para agregar pelis-->
           {if $logged}
-            <a href="add/serie" class="d-flex align-items-center justify-content-center">
+            <a href="addSerie" class="d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-plus circle-icon"></i>
             </a>
           {/if}
