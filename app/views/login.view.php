@@ -18,9 +18,6 @@ class LoginView {
 
         $this->smarty->assign('logged', $logged);
         $this->smarty->assign('error', $error);
-        $this->smarty->display('templates/loginForm.tpl');
+        $this->smarty->display('templates/formlogin.tpl');
     }
-
-
-
 }
