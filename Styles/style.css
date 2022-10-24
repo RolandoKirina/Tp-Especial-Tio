@@ -4,42 +4,74 @@
 /* CSS TPE WEB1 */
 
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .center {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.contenedor{
+
+.contenedor {
     border-bottom: 0;
 }
+
 .h1 {
     padding-top: 50px;
     color: white;
     text-align: center;
 }
+
 .container {
     background-color: black;
     padding-bottom: 50px;
-    padding-left: 30px;
+    color: white;
 }
+
+.container h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 {
+    width: fit-content;
+}
+
+.my-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mt-2 {
+    margin: 15px auto;
+}
+
 .label {
     color: white;
 }
+
 /* Layout de la  Pagina */
 
-.contenedor, .contenedor-2, .contenedor-3 {
+.contenedor,
+.contenedor-2,
+.contenedor-3 {
     display: grid;
     grid-template-columns: 1fr;
 }
 
 
 .contenedor {
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "titular"
         "content"
@@ -47,20 +79,33 @@
         "footer";
 }
 
-header { grid-area: header; }
-.titular { grid-area: titular; }
-.content { grid-area: content; }
-.right-box { grid-area: right-box; }
+header {
+    grid-area: header;
+}
 
-footer { grid-area: footer; }
+.titular {
+    grid-area: titular;
+}
+
+.content {
+    grid-area: content;
+}
+
+.right-box {
+    grid-area: right-box;
+}
+
+footer {
+    grid-area: footer;
+}
 
 
 .contenedor-2 {
-    
+
 
     background-color: #f0bd15;
 
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "titular"
         "colibri"
@@ -70,33 +115,70 @@ footer { grid-area: footer; }
         "tablecontainer"
         "form-tabla"
         "footer";
-} 
+}
 
-header { grid-area: header; }
-.titular { grid-area: titular; }
-.colibri { grid-area: colibri; }
-.info-products { grid-area: info-products; }
-.infoweb { grid-area: infoweb; }
-.infotabla { grid-area: infotabla; }
-.tablecontainer { grid-area: tablecontainer; }
-.form-tabla { grid-area: form-tabla; }
-footer { grid-area: footer; }
+header {
+    grid-area: header;
+}
+
+.titular {
+    grid-area: titular;
+}
+
+.colibri {
+    grid-area: colibri;
+}
+
+.info-products {
+    grid-area: info-products;
+}
+
+.infoweb {
+    grid-area: infoweb;
+}
+
+.infotabla {
+    grid-area: infotabla;
+}
+
+.tablecontainer {
+    grid-area: tablecontainer;
+}
+
+.form-tabla {
+    grid-area: form-tabla;
+}
+
+footer {
+    grid-area: footer;
+}
 
 .contenedor-3 {
 
-    grid-template-areas: 
+    grid-template-areas:
         "header"
         "titular"
-        "infoform"    
+        "infoform"
         "footer";
-} 
+}
 
-header { grid-area: header; }
-.titular { grid-area: titular; }
-.infoform { grid-area: infoform; }
-footer { grid-area: footer; }
+header {
+    grid-area: header;
+}
 
-    
+.titular {
+    grid-area: titular;
+}
+
+.infoform {
+    grid-area: infoform;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
 
 
 
@@ -159,7 +241,7 @@ ul.navegacion li {
     color: #f5f385;
 }
 
-ul.navegacion li a:hover{
+ul.navegacion li a:hover {
     color: #da8414;
 }
 
@@ -180,7 +262,7 @@ ul.navegacion li a {
     background: linear-gradient(gray, white, gray);
 }
 
-p{
+p {
     font-size: 150%;
 }
 
@@ -231,7 +313,7 @@ p{
     font-size: 1.8em;
 }
 
-.joya-antigua img{
+.joya-antigua img {
     width: 100%;
     height: 100%;
 
@@ -246,7 +328,8 @@ p{
     outline: 0.2em solid #000;
 }
 
-.imgtienda, .portadalogo {
+.imgtienda,
+.portadalogo {
     width: 100%;
     background-color: #000;
 }
@@ -278,7 +361,7 @@ p{
     flex-direction: column;
     padding-left: 30%;
     margin-top: 5%;
-    justify-content:left;
+    justify-content: left;
     line-height: 1.5em;
 }
 
@@ -300,26 +383,26 @@ footer {
     width: 50%;
 }
 
-.copyright p{
-  padding-top: 1.5em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #000;
-  font-size: larger;
-  background-color: #fff;
-  border-radius: 0.2em;
-  border: 0.1em solid #000;
-  margin-left: 30%;
+.copyright p {
+    padding-top: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: larger;
+    background-color: #fff;
+    border-radius: 0.2em;
+    border: 0.1em solid #000;
+    margin-left: 30%;
 }
 
-.metodospago{
+.metodospago {
     width: 50%;
 }
 
-.metodospago p{
+.metodospago p {
     margin-left: 15%;
     padding: 2%;
     font-size: large;
-   
+
 }
 
 .metodospago img {
@@ -337,34 +420,41 @@ footer {
 
 .colibri img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
-.info-products{
+.info-products {
     background-color: rgb(245, 243, 133);
-  
+
 }
 
-.titulo-products, .artesano, .infotabla h4, p {
+.titulo-products,
+.artesano,
+.infotabla h4,
+p {
     text-align: center;
 }
 
-.titulo-products, .bloque1 p, ul,  .infotabla h4 {
+.titulo-products,
+.bloque1 p,
+ul,
+.infotabla h4 {
     font-size: larger;
 }
 
-.artesano, .infotabla p  {
+.artesano,
+.infotabla p {
     font-size: large;
 }
 
 
-.titulo-products{
+.titulo-products {
     background-color: #f0bd15;
     color: rgb(138, 20, 218);
     text-transform: uppercase;
     padding: 4%;
     border: 0.2em solid #000;
-   
+
 }
 
 .artesano {
@@ -376,7 +466,7 @@ footer {
     text-decoration: none;
 }
 
-.infoweb  {
+.infoweb {
     background-color: #f0bd15;
     border: 0.2em;
     border: solid #000;
@@ -388,13 +478,13 @@ footer {
 
 .bloque2 {
     width: 30%;
- 
+
 }
 
 .bloque2 img {
-     padding: 12%;
-     width: 100%;
-     height: 100%;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
 }
 
 .bloque1 p {
@@ -406,7 +496,8 @@ footer {
     padding-left: 12%;
 }
 
-.bloque1 p, ul {
+.bloque1 p,
+ul {
     padding-top: 5%;
 }
 
@@ -422,7 +513,8 @@ footer {
     padding-bottom: 2%;
 }
 
-.infotabla h4, p {
+.infotabla h4,
+p {
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -440,9 +532,9 @@ footer {
 
 tbody {
     background: rgb(245, 243, 133);
-    border: 0.2em solid #000; 
+    border: 0.2em solid #000;
     border-left: 0;
-    
+
 }
 
 .tabla_sin {
@@ -451,7 +543,8 @@ tbody {
 }
 
 
-th, td  {
+th,
+td {
     padding: 0.25%;
     text-align: center;
 }
@@ -461,14 +554,15 @@ th {
 }
 
 thead {
-    border: 0.2em solid #000; 
+    border: 0.2em solid #000;
     background-color: rgb(240, 229, 229);
     border-top: 0;
     color: #000;
 }
 
 
-tr:nth-child(even) { /*  darle color a los tr pares */
+tr:nth-child(even) {
+    /*  darle color a los tr pares */
     background-color: #fff;
 }
 
@@ -499,30 +593,31 @@ tr:nth-child(even) { /*  darle color a los tr pares */
     display: block;
 }
 
-.select-products button{
+.select-products button {
     width: 15.6em;
-    
+
 }
 
 .boton {
     margin-left: 3.25em;
 }
 
-.boton, .boton2 {
+.boton,
+.boton2 {
     display: flex;
     flex-direction: row;
 }
 
 .select-products {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: #abebdd;
 }
 
-.select-products h2{
+.select-products h2 {
     text-align: center;
     background-color: rgb(240, 229, 229);
-   
+
 }
 
 .select-products h2 {
@@ -543,7 +638,8 @@ tr:nth-child(even) { /*  darle color a los tr pares */
     text-align: center;
 }
 
-.select-products input, label {
+.select-products input,
+label {
     width: 50%;
     height: 2.5em;
     margin-left: 20%;
@@ -561,7 +657,7 @@ tr:nth-child(even) { /*  darle color a los tr pares */
 /* tercer contenedor - seccion formulario */
 
 .titulo-pre {
-    
+
     background-color: #f0bd15;
     color: rgb(138, 20, 218);
     text-transform: uppercase;
@@ -579,7 +675,10 @@ tr:nth-child(even) { /*  darle color a los tr pares */
     background-color: rgb(245, 243, 133);
 }
 
-.titulo-pre, .info-us, .info-us2, .img-anillo {
+.titulo-pre,
+.info-us,
+.info-us2,
+.img-anillo {
     text-align: center;
     font-size: larger;
 }
@@ -587,18 +686,18 @@ tr:nth-child(even) { /*  darle color a los tr pares */
 .explic {
     margin-left: 20%;
     width: 60%;
-    background-color:  rgb(247, 246, 243);
+    background-color: rgb(247, 246, 243);
     border-radius: 0.2em;
     border: 0 0.1em 0.1em 0.1em;
     border: solid #000;
-    box-shadow:  0.5em 1em 2em #000;
+    box-shadow: 0.5em 1em 2em #000;
 }
 
 .explic p {
 
-    padding-top : 0.7em;
+    padding-top: 0.7em;
     text-align: center;
-    font-size:large;
+    font-size: large;
     padding: 0.7em;
 }
 
@@ -608,14 +707,14 @@ tr:nth-child(even) { /*  darle color a los tr pares */
 }
 
 .form-register {
-    
+
     width: 50%;
     background-color: rgb(66, 65, 57);
     padding: 2em;
     margin: auto;
     margin-top: 1em;
     border-radius: 0.2em;
-    box-shadow:  0.5em 1em 2em #000;
+    box-shadow: 0.5em 1em 2em #000;
 }
 
 label {
@@ -624,7 +723,7 @@ label {
 
 
 .entradas {
-    
+
     display: flex;
     width: 100%;
     padding: 0.8em;
@@ -634,18 +733,20 @@ label {
 }
 
 
-.form-register h4, .info-form {
+.form-register h4,
+.info-form {
     margin-bottom: 0.8em;
-    color:rgb(243, 240, 92);
+    color: rgb(243, 240, 92);
 }
 
-.form-register h4, p {
+.form-register h4,
+p {
     text-align: center;
 }
 
 
-.form-register h4{
-    font-size:large;
+.form-register h4 {
+    font-size: large;
 }
 
 .form-register p {
@@ -664,13 +765,17 @@ label {
 }
 
 /* About */
-.h1About, h2.about, h4.about{
+.h1About,
+h2.about,
+h4.about {
     text-align: center;
 }
-.h1About{
+
+.h1About {
     margin-bottom: 30px;
 }
-.listColaboradores{
+
+.listColaboradores {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -678,7 +783,8 @@ label {
     margin-top: 5%;
     margin-bottom: 18%;
 }
-.listColaboradores li{
+
+.listColaboradores li {
     border-bottom: 2px solid black;
 }
 
@@ -689,21 +795,21 @@ label {
     /* layout de la pagina  */
 
 
- 
- 
+
+
 
     .contenedor {
 
         display: grid;
         grid-template-columns: 70%;
         grid-template-rows: auto;
-        grid-template-areas: 
+        grid-template-areas:
 
             "header header"
             "titular titular"
             "content right-box"
             "footer footer";
-        }
+    }
 
     .btn_menu {
         display: none;
@@ -735,14 +841,14 @@ label {
 
     }
 
-    .navegacion{
+    .navegacion {
         margin-top: 3%;
         align-items: center;
         justify-content: space-around;
     }
 
 
-        /* imagen aside */
+    /* imagen aside */
 
     .portadalogo {
         width: 100%;
@@ -752,7 +858,7 @@ label {
     .contenedor-2 {
         display: grid;
         grid-template-columns: 50%;
-        grid-template-areas: 
+        grid-template-areas:
             "header header"
             "titular titular"
             "colibri info-products"
@@ -761,17 +867,43 @@ label {
             "tablecontainer tablecontainer"
             "form-tabla form-tabla"
             "footer footer";
-    } 
+    }
 
-        header { grid-area: header; }
-        .titular { grid-area: titular; }
-        .colibri { grid-area: colibri; }
-        .info-products { grid-area: info-products; }
-        .infoweb { grid-area: infoweb; }
-        .infotabla { grid-area: infotabla; }
-        .tablecontainer { grid-area: tablecontainer; }
-        .form-tabla { grid-area: form-tabla; }
-        footer { grid-area: footer; }
+    header {
+        grid-area: header;
+    }
+
+    .titular {
+        grid-area: titular;
+    }
+
+    .colibri {
+        grid-area: colibri;
+    }
+
+    .info-products {
+        grid-area: info-products;
+    }
+
+    .infoweb {
+        grid-area: infoweb;
+    }
+
+    .infotabla {
+        grid-area: infotabla;
+    }
+
+    .tablecontainer {
+        grid-area: tablecontainer;
+    }
+
+    .form-tabla {
+        grid-area: form-tabla;
+    }
+
+    footer {
+        grid-area: footer;
+    }
 
     .bloques {
         display: flex;
@@ -780,24 +912,32 @@ label {
 
     .contenedor-3 {
 
-        grid-template-areas: 
+        grid-template-areas:
             "header"
             "titular"
-            "infoform"    
+            "infoform"
             "footer";
-    } 
+    }
 
-    header { grid-area: header; }
-    .titular { grid-area: titular; }
-    .infoform { grid-area: infoform; }
-    footer { grid-area: footer; }
+    header {
+        grid-area: header;
+    }
+
+    .titular {
+        grid-area: titular;
+    }
+
+    .infoform {
+        grid-area: infoform;
+    }
+
+    footer {
+        grid-area: footer;
+    }
 
     .joyeriadds {
         flex-direction: row;
-            
+
     }
 
-   
-
 }
-
