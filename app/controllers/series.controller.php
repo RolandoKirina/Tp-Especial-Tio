@@ -109,6 +109,13 @@ class SeriesController {
         }
     }
 
+    //muestro form para añadir nueva serie
+    public function showAddFormSerie(){        
+        $logged = $this->authHelper->isLogged();
+        $platforms = $this->platforms->getAllPlatforms();
+        $this->view->showFormAddSerie($platforms, $logged);
+    }
+
     //borrar una serie
     public function deleteSerie($id) {
 
