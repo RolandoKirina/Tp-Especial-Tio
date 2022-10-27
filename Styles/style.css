@@ -981,5 +981,18 @@ h4.about {
     .serie:hover{
         box-shadow:0rem 0rem 0.6rem #6c6c6c;
     }
-}
 
+    /* Platforms */
+
+    .title-platforms:hover{
+        cursor: pointer;
+        word-spacing: 3px;
+    }
+
+    .list-group li:hover{
+        background-color: #f0bd15;
+        cursor: pointer;
+    }
+
+
+}
