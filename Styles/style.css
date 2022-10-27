@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000;
+}
+
 .center {
     margin-top: 20px;
     display: flex;
@@ -28,7 +32,7 @@
 
 .container {
     background-color: black;
-    padding-bottom: 50px;
+    padding-top: 2rem;
     color: white;
 }
 
@@ -262,13 +266,8 @@ ul.navegacion li a {
     background: linear-gradient(gray, white, gray);
 }
 
-<<<<<<< HEAD
-p {
-    font-size: 150%;
-=======
 p{
     font-size: 160%;
->>>>>>> d9a66efae252cea315202048b844c4179de6cd11
 }
 
 
@@ -369,7 +368,6 @@ p{
     justify-content: left;
     line-height: 1.5em;
 }
-
 
 /* footer */
 
@@ -945,9 +943,6 @@ h4.about {
 
     }
 
-<<<<<<< HEAD
-}
-=======
     .series-container{
         padding: 0;
         max-height: 440px;
@@ -988,4 +983,3 @@ h4.about {
     }
 }
 
->>>>>>> d9a66efae252cea315202048b844c4179de6cd11
