@@ -1,5 +1,6 @@
     {include 'templates/header.tpl'}
         <div class="container">
+        <div class="divcontainer">
             <form action="verify" method="POST" class="col-md-4 offset-md-4 mt-4">
                 <h1 class="h1">Iniciar Sesion</h1>
                 
@@ -23,5 +24,6 @@
                     {$error}
                 </div>
             {/if}
+            </div>
 
         </div>

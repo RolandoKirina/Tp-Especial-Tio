@@ -29,11 +29,18 @@ body{
     color: white;
     text-align: center;
 }
-
+.divcontainer {
+    border: solid 2px;
+    border-color: white;
+    padding-bottom: 50px;
+}
 .container {
     background-color: black;
-    padding-top: 2rem;
-    color: white;
+    padding-top: 20px;
+
+}
+.containergeneral {
+    border-color: white;
 }
 
 .container h2 {
