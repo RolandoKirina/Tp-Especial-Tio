@@ -1,5 +1,5 @@
     {include 'templates/header.tpl'}
-        <div class="container">
+        <div class="container1">
         <div class="divcontainer">
             <form action="verify" method="POST" class="col-md-4 offset-md-4 mt-4">
                 <h1 class="h1">Iniciar Sesion</h1>
@@ -18,12 +18,12 @@
                 <button type="submit"class="btn btn-light">Ingresar</button>
                 </div>
             </form>
-
             {if $error}
                 <div class="alert alert-danger" role="alert">
                     {$error}
                 </div>
             {/if}
             </div>
-
+            
         </div>
+ 

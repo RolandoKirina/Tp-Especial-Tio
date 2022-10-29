@@ -34,11 +34,17 @@ body{
     border-color: white;
     padding-bottom: 50px;
 }
-.container {
+.container1 {
     background-color: black;
     padding-top: 20px;
 
 }
+.container {
+    background-color: black;
+    padding-top: 2rem;
+    color: white;
+}
+
 .containergeneral {
     border-color: white;
 }
