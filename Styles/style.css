@@ -23,7 +23,9 @@ body{
 .contenedor {
     border-bottom: 0;
 }
-
+a{
+    color:red;
+}
 .h1 {
     padding-top: 50px;
     color: white;
