@@ -6,6 +6,7 @@
 
     <ul class="listColaboradores">
         <li>Kirina Rolando</li>
+        <p>Kirina Rolando se encargo de la "login" del sitio.</p>
         <li>Maria Ines Conti</li>
         <li>Mercedes Chomicki</li>
         <li>Florencia Bazan</li>
