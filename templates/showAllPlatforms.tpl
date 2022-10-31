@@ -6,7 +6,7 @@
 
       <h1 class="title-platforms">Lista de Plataformas - Streaming</h1>
 
-      <ul class="list-group">
+      <ul class="list-group platform">
       
            {foreach $platforms as $platform }
 

@@ -53,6 +53,13 @@ class SeriesView {
        $this->smarty->display('templates/updateSerie.tpl');
     }
 
+    //muestro el form, y mando las plataformas para completar el select
+    function showFormAddSerie($platforms,$logged){
+        $this->smarty->assign('platforms', $platforms);
+        $this->smarty->assign('logged', $logged);
+        $this->smarty->display('form_serie.tpl');
+    }
+
     //mensaje de error si el formulario esta vacio
     function showErrorEmptyForm($logged) {
 
