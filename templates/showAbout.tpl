@@ -13,6 +13,7 @@
         <li>Fabiana Augusto</li>
         <li>Ignacio Gassie</li>
         <li>Javier Ondicol</li>
+	<p>Encargado de realizar la seccion About del sitio.</p>
     </ul>
 
     <h4 class="h4 about">Proyecto - Trabajo GIT</h4>
