@@ -55,7 +55,7 @@ a{
     text-align: center;
 }
 
-..search-container {
+.search-container {
     display: flex;
     align-items: center;
     justify-content: center;
