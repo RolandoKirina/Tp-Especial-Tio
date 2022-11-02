@@ -20,6 +20,14 @@
         <div id="rolando" class="infoAbout hid">
             <p>Modificar Login</p>
             <p>Renombrar un archivo</p>
+        </div>
+
+        <div id="conti" class="infoAbout hid">
+            <p>Cambiar estilos de los links y crear un archivo.txt para comentarios del tpe</p>
+            <p>Reformar el nav</p>
+            <p>Eliminar archivo README</p>
+        </div>
+
         <div id="chomicki" class="infoAbout hid">
             <p>Modificacion estilo en seccion Plataformas</p>
         </div>
