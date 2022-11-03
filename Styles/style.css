@@ -791,6 +791,7 @@ p {
 h2.about,
 h4.about {
     text-align: center;
+    color: #ddd;
 }
 
 .h1About {
@@ -803,11 +804,32 @@ h4.about {
     justify-content: center;
     gap: 20px;
     margin-top: 5%;
-    margin-bottom: 18%;
+    margin-bottom: 6%;
 }
 
-.listColaboradores li {
+.devInfo{
+    padding: 6px;
+    background-color: #141414;
+    color: #ddd;
     border-bottom: 2px solid black;
+}
+
+.hid{
+    display: none;
+}
+.infoContainer{
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.infoAbout{
+    width: 400px;
+    padding: 5px;
+    border: #282828 solid 3px;
+}
+.infoAbout p{
+    color: #ddd;
+    font-size: 20px;
 }
 
 
