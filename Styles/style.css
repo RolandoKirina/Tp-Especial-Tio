@@ -55,7 +55,7 @@ a{
     text-align: center;
 }
 
-.row {
+.search-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1031,5 +1031,11 @@ h4.about {
         cursor: pointer;
     }
 
+}
 
+@media only screen and (min-width: 1400px) {
+    .admin_actions{
+        top: -40%;
+        left: 63%;
+    }
 }
