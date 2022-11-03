@@ -278,7 +278,8 @@ ul.navegacion li a {
     flex-direction: column;
     text-align: center;
     padding: 3%;
-    background: linear-gradient(gray, white, gray);
+    background:black;
+    color: white;
 }
 
 .presentation img{
