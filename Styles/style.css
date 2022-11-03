@@ -281,6 +281,10 @@ ul.navegacion li a {
     background: linear-gradient(gray, white, gray);
 }
 
+.presentation img{
+    width: 100%;
+}
+
 p{
     font-size: 160%;
 }
