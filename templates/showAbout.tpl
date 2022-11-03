@@ -51,6 +51,7 @@
 
         <div id="ondicol" class="infoAbout hid">
             <p>Encargado de realizar la seccion About del sitio.</p>
+            <p>actualizo archivo .sql en la carpeta database</p>
         </div>
 
     </div>
