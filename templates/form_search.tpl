@@ -8,7 +8,7 @@
 
             <form action="filter" method="POST" class="my-4">
 
-                <div class="row">
+                <div class="search-container">
                     <div class="col-3">
                         <div class="form-group">
 
