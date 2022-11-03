@@ -828,6 +828,7 @@ h4.about {
     width: 400px;
     padding: 5px;
     border: #282828 solid 3px;
+    background-color: rgba(47, 47, 47, 0.558);
 }
 .infoAbout p{
     color: #ddd;
