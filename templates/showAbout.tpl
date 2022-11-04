@@ -6,7 +6,7 @@
 
     <ul class="listColaboradores">
         <li>Kirina Rolando</li>
-        <li>Maria Ines Conti</li>
+        <li>Maria Inés Conti</li>
         <li>Mercedes Chomicki</li>
         <li>Florencia Bazan</li>
         <li>Mariana Pal</li>
