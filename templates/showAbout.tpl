@@ -5,21 +5,22 @@
     <h2 class="h2 about">Esta pagina fue mejorada gracias a la colaboracion de varios miembros: </h2>
 
     <ul class="listColaboradores">
-        <li><button class="devInfo" data-id="rolando">Kirina Rolando</button></li>
-        <li><button class="devInfo" data-id="conti">Maria Ines Conti</button></li>
-        <li><button class="devInfo" data-id="chomicki">Mercedes Chomicki</button></li>
-        <li><button class="devInfo" data-id="bazan">Florencia Bazan</button></li>
-        <li><button class="devInfo" data-id="pal">Mariana Pal</button></li>
-        <li><button class="devInfo" data-id="augusto">Fabiana Augusto</button></li>
-        <li><button class="devInfo" data-id="gassie">Ignacio Gassie</button></li>
-        <li><button class="devInfo" data-id="ondicol">Javier Ondicol</button></li>
+        <li><button class="devInfo" data-id="rolando">Kirina Rolando</li>
+        <li><button class="devInfo" data-id="conti">Maria Inés Conti</li>
+        <li><button class="devInfo" data-id="chomicki">Mercedes Chomicki</li>
+        <li><button class="devInfo" data-id="bazan">Florencia Bazan</li>
+        <li><button class="devInfo" data-id="pal">Mariana Pal</li>
+        <li><button class="devInfo" data-id="augusto">Fabiana Augusto</li>
+        <li><button class="devInfo" data-id="gassie">Ignacio Gassie</li>
+        <li><button class="devInfo" data-id="ondicol">Javier Ondicol</li>
+
+
     </ul>
 
     <div class="infoContainer">
 
         <div id="rolando" class="infoAbout hid">
-            <p>Modificar Login</p>
-            <p>Renombrar un archivo</p>
+            <p>Encargada de realizar el login del sitio</p>
         </div>
 
         <div id="conti" class="infoAbout hid">
@@ -42,6 +43,7 @@
         </div>
 
         <div id="augusto" class="infoAbout hid">
+            <p>Front-end de seccion series<p>
             <p>Cambiar form add serie a nueva URL</p>
         </div>
 
@@ -50,9 +52,8 @@
         </div>
 
         <div id="ondicol" class="infoAbout hid">
-            <p>Añadir Seccion about</p>
-            <p>Database: actualizar database, exportarla y colocarla en carpeta "database"</p>
-            <p>Crear una carpeta y ocultarla</p>
+            <p>Encargado de realizar la seccion About del sitio.</p>
+            <p>actualizo archivo .sql en la carpeta database</p>
         </div>
 
     </div>
