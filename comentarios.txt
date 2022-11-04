@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 trabajo tio 2022
+=======
+trabajo tio 
+
+modificacionprueba...
+>>>>>>> 0e0cf8297041298dcd3d5699bb80c12639fae5f0

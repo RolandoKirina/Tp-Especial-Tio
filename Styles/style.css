@@ -55,7 +55,7 @@ a{
     text-align: center;
 }
 
-.row {
+.search-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,7 +278,12 @@ ul.navegacion li a {
     flex-direction: column;
     text-align: center;
     padding: 3%;
-    background: linear-gradient(gray, white, gray);
+    background:black;
+    color: white;
+}
+
+.presentation img{
+    width: 100%;
 }
 
 p{
@@ -787,6 +792,7 @@ p {
 h2.about,
 h4.about {
     text-align: center;
+    color: #ddd;
 }
 
 .h1About {
@@ -799,11 +805,34 @@ h4.about {
     justify-content: center;
     gap: 20px;
     margin-top: 5%;
-    margin-bottom: 18%;
+    margin-bottom: 6%;
+    padding: 0;
 }
 
-.listColaboradores li {
+.devInfo{
+    padding: 6px;
+    background-color: #141414;
+    color: #ddd;
     border-bottom: 2px solid black;
+}
+
+.hid{
+    display: none;
+}
+.infoContainer{
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.infoAbout{
+    width: 400px;
+    padding: 5px;
+    border: #282828 solid 3px;
+    background-color: rgba(47, 47, 47, 0.558);
+}
+.infoAbout p{
+    color: #ddd;
+    font-size: 20px;
 }
 
 
@@ -1009,5 +1038,11 @@ h4.about {
         cursor: pointer;
     }
 
+}
 
+@media only screen and (min-width: 1400px) {
+    .admin_actions{
+        top: -40%;
+        left: 63%;
+    }
 }

@@ -1,1 +1,3 @@
 importar base de datos de carpeta "database" para el uso de la pagina.
+
+tener precaucion si se edita codigo en el models.
