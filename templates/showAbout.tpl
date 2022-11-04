@@ -5,14 +5,14 @@
     <h2 class="h2 about">Esta pagina fue mejorada gracias a la colaboracion de varios miembros: </h2>
 
     <ul class="listColaboradores">
-        <li>Kirina Rolando</li>
-        <li>Maria Inés Conti</li>
-        <li>Mercedes Chomicki</li>
-        <li>Florencia Bazan</li>
-        <li>Mariana Pal</li>
-        <li>Fabiana Augusto</li>
-        <li>Ignacio Gassie</li>
-        <li>Javier Ondicol</li>
+        <li><button class="devInfo" data-id="rolando">Kirina Rolando</li>
+        <li><button class="devInfo" data-id="conti">Maria Inés Conti</li>
+        <li><button class="devInfo" data-id="chomicki">Mercedes Chomicki</li>
+        <li><button class="devInfo" data-id="bazan">Florencia Bazan</li>
+        <li><button class="devInfo" data-id="pal">Mariana Pal</li>
+        <li><button class="devInfo" data-id="augusto">Fabiana Augusto</li>
+        <li><button class="devInfo" data-id="gassie">Ignacio Gassie</li>
+        <li><button class="devInfo" data-id="ondicol">Javier Ondicol</li>
 
 
     </ul>
