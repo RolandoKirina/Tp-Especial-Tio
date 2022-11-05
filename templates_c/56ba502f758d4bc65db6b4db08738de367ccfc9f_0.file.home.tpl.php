@@ -1,0 +1,59 @@
+<?php
+/* Smarty version 4.2.1, created on 2022-11-02 21:34:57
+  from 'C:\xampp\htdocs\TIO\Tp-Especial-Tio\templates\home.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_6362d471d73c85_55422347',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '56ba502f758d4bc65db6b4db08738de367ccfc9f' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\TIO\\Tp-Especial-Tio\\templates\\home.tpl',
+      1 => 1667421282,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:templates\\header.tpl' => 1,
+    'file:templates\\footer.tpl' => 1,
+  ),
+),false)) {
+function content_6362d471d73c85_55422347 (Smarty_Internal_Template $_smarty_tpl) {
+?>    <?php $_smarty_tpl->_subTemplateRender('file:templates\header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
+
+      <div class="presentation">
+
+            <?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>
+         <h4>[Te encuentras en una sesion]</h4>
+            <?php }?>
+
+         <h2>BIENVENIDO A SERIES Y PLATAFORMAS</h2>
+
+         <p>Aqui encontraras informacion sobre determinadas Series y sus Plataformas de Streaming</p>
+
+         <h4>Secciones: </h4>
+
+         <p>En <b><a href="series">Series</a></b> vera una lista sobre determinadas series junto con su determinada Plataforma de Streaming.
+
+         En <b><a href="platforms">Plataformas</a></b> puede ver una lista de distintas plataformas de streaming.
+
+         en <b><a href="search">Buscar</a></b> podra elegir determinada plataforma y ver una lista de las series que se encuentran disponibles allí.
+
+         <img src="images\img.jpg">
+
+         </p>
+
+
+      </div>
+
+   </div> <!-- conecta con el contenedor del header.tpl -->
+
+    <?php $_smarty_tpl->_subTemplateRender('file:templates\footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
+}
